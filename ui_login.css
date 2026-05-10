@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -15px; /* BUG: Keypad is shifted left */
+    margin-left: 0px; /* FIXED: Shift removed */
     width: 100%;
 }
 
@@ -12,5 +12,5 @@
     position: absolute;
     bottom: 20px;
     right: 10px;
-    visibility: visible;
+    visibility: hidden;
 }
