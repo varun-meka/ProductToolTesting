@@ -1,0 +1,16 @@
+/* Login Screen Styles */
+
+.keypad-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -15px; /* BUG: Keypad is shifted left */
+    width: 100%;
+}
+
+.cancel-button {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    visibility: visible;
+}
